@@ -10,16 +10,16 @@ Config.ESXSkin                              = "AK"                  -- AK for ak
 
 Config.DefaultDarkMode                      = 1                     -- Whether dark mode should be enabled by default. 1 is on by default, 0 is off
 
-Config.ServerName                           = "Server Name"
-Config.ServerDiscord                        = "discord.gg/discord-link-here" -- For kick/ban messages
-Config.ScreenshotWebhook                    = ""
-Config.LogsWebhook                          = ""
+Config.ServerName                           = "Sunucu Isminiz"
+Config.ServerDiscord                        = "Discord adresiniz" -- For kick/ban messages
+Config.ScreenshotWebhook                    = ""    -- SS'ler için webhook ekleyin
+Config.LogsWebhook                          = ""    -- Logların discorda düşmesi için webhook ekleyin
 
-Config.NoClipKey                            = "9"
-Config.AdminPanelKey                        = "0"
-Config.ShowNamesKey                         = "8"
+Config.NoClipKey                            = "9"   -- NoClip Kısayol Tuşu
+Config.AdminPanelKey                        = "0"   -- Admin Panelinin Kısayol Tuşu
+Config.ShowNamesKey                         = "8"   -- Isimleri Göster
 
-Config.EnableAdminPanelCommand              = true                  -- Whether to enable the admin panel command (/a by default)
+Config.EnableAdminPanelCommand              = true                  -- /admin yazarak admin menüsünü açmanı sağlar eğer memnun değilsen değiştirebilirsin.
 Config.AdminPanelCommand                    = "admin"
 
 Config.NoClipType                           = 1                     -- 1 (default) NEW txAdmin-like NoClip system, or 2 for old style 919Admin NoClip system, or 3 for default qbcore NoClip system
