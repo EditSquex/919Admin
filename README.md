@@ -1,23 +1,23 @@
-# Installation
-<!-- INSTALL THE ESX.SQL IF YOU USE ESX -->
-Installation of 919ADMIN is simple, and involves drag-and-dropping the resource as well as some basic configuration.
+# Kurulum
+<!-- ESX KULLANIYORSANIZ ESX.SQL'I KURUN -->
+919ADMIN'in kurulumu basittir ve bazı temel yapılandırmaların yanı sıra kaynağın sürükleyip bırakılmasını da içerir.
 
-## Extract Resource to Server Files
-Extract the resource to the server files directory.
+## Kaynağı Sunucu Dosyalarına Çıkarın
+Kaynağı sunucu dosyaları dizinine çıkarın.
 
-## Install the following resource to make the screenshots work https://github.com/jaimeadf/discord-screenshot
-## THIS RUNS ALONGSIDE SCREENSHOT-BASIC
+## Ekran görüntülerinin çalışması için aşağıdaki kaynağı yükleyin https://github.com/jaimeadf/discord-screenshot
+## BU EKRAN SCREENSHOT-BASIC YANINDA ÇALIŞIR
 
-# ADMINMENU DOES NOT OPEN, WHAT NOW??
-BE SURE TO CHANGE YOUR group.admin PRINCIPAL INSIDE YOUR SERVER.CFG TO qbcore.god SO IT LOOKS LIKE THIS
+# ADMİNMENÜ AÇILMIYOR, ŞİMDİ NE OLACAK??
+SUNUCUSUNUZUN İÇİNDEKİ group.admin PRENSİBİNİZİ qbcore.god OLARAK DEĞİŞTİRDİĞİNDEN EMİN OLUN, BU ŞEKİLDE GÖRÜNÜR
 add_principal identifier.fivem:xxxxxx qbcore.god
 
-# HOW TO SWITCH FROM QBCORE TO ESX MODE
-Open the fxmanifest.lua and comment the line that contains 'compat/qbcore.lua' and uncomment the line that contains 'compat/esx18.lua'
+# QBCORE'DAN ESX MODUNA NASIL GEÇİŞ YAPILIR
+Fxmanifest.lua dosyasını açın ve 'compat/qbcore.lua' içeren satıra yorum yapın ve 'compat/esx18.lua' içeren satırın yorumunu kaldırın.
 
 
-## Configuration
+## Yapılandırma
 
-Edit the file _config.lua_ to your liking.
+_config.lua_ dosyasını beğeninize göre düzenleyin.
 
-## Add Resource to server.cfg or resources.cfg
+## Server.cfg veya Resources.cfg'ye Kaynak ekleyin
